@@ -128,6 +128,10 @@ def build_dataframe(rows: List[ResultRow]) -> Tuple[pd.DataFrame, Dict[int, str]
             "PHI": row.PHI,
             "PSI": row.PSI,
             "WND": row.WND,
+            "r2 [mm]": row.r2_mm,
+            "b2 [mm]": row.b2_mm,
+            "r1s [mm]": row.r1s_mm,
+            "r1h [mm]": row.r1h_mm,
         }
         records.append(rec)
         if row.r2_mm is not None:
