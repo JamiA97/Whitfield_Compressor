@@ -1,0 +1,15 @@
+pr: 3.5
+beta2_start: -10.0
+beta2_step: 5.0
+nsteps: 7
+SF: 0.86
+ETI: 0.9
+ETS: 0.82
+BETA1S: -62.0
+ANU: 0.45
+ALP2: 63.0
+R1SR2: 0.68
+G: 1.4
+mf: 0.55
+p01_bar: 1.15
+t01: 310.0
